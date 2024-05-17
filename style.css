@@ -1,4 +1,4 @@
-/* Selector Universal es el asterísco, todo en cada elemento */
+/* Selector Universal es el asterisco, todo en cada elemento */
 * {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -8,7 +8,6 @@
     padding: 0px;
     /* Espacio fuera del borde */
     margin: 0px;
-
 }
 
 header {
@@ -27,10 +26,10 @@ main {
 footer {
     /* background-color: pink; */
     font-size: 19px;
+    font-family: Arial, sans-serif; /* Cambia la fuente del footer a Arial */
 }
 
 /* Estilos para elementos de lista lado a lado */
-
 li {
     display: inline-block;
     padding: 12px;
@@ -45,11 +44,10 @@ header ul {
 }
 
 .icono {
-    /* Cambiando el fondo*/
+    /* Cambiando el fondo */
     background-color: white;
 
-    /* Cambiando el modelo de caja*/
-
+    /* Cambiando el modelo de caja */
     /* Espacio dentro del borde */
     padding: 0px;
     /* Espacio fuera del borde */
@@ -63,7 +61,7 @@ header ul {
     border: none;
 }
 
-#logo{
+#logo {
     padding-top: 6em;
     margin-bottom: 1em;
 }
@@ -93,6 +91,15 @@ header ul {
 }
 
 /* Display flex para menu */
+#menu a {
+    color: black;
+    text-decoration: none; /* Quitar el subrayado si es necesario */
+}
+
+#menu a:hover {
+    text-decoration: underline; /* Subrayado al pasar el mouse */
+    text-decoration-color: black; /* Asegura que el subrayado sea negro */
+}
 
 #menu {
     display: flex;
@@ -106,18 +113,18 @@ header ul {
     color: #3c4043;
     font-family: arial, sans-serif;
     font-size: 14px;
-    /* Margen: Izq-Der Arr-Abj-*/
+    /* Margen: Izq-Der Arr-Abj- */
     margin: 11px 4px;
     padding: 0 16px;
     line-height: 27px;
     height: 36px;
     min-width: 54px;
     text-align: center;
-    /* Pasas mouse encima se convierte en una mano*/
+    /* Pasas mouse encima se convierte en una mano */
     cursor: pointer;
     user-select: none;
 }
 
-#botones-busqueda button:hover{
+#botones-busqueda button:hover {
     border: 1px solid #626262;
 }
